@@ -5,6 +5,7 @@ MAINTAINER Taotao Hsu <taotaohsu@gmail.com>
 RUN apt-get update && \
 	apt-get install -y build-essential \
 	automake \
+	libtool \
 	devscripts \
 	libncurses5-dev \
 	exuberant-ctags \
